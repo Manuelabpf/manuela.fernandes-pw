@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>- Aula 2 -</title>
+</head>
+
+<body>
+
+    <h1> Calculadora </h1>
+
+    1º Número <br/>
+    <input type = "number" id = "numero1"> <br>
+
+    2º Número <br/>
+    <input type = "number" id = "numero2"> <br/><br/>
+
+    <button onclick = "somar()"> Somar </button>
+    <button onclick = "subtrair()"> Subtrair </button>
+    <button onclick = "multiplicar()"> Multiplicar </button>
+    <button onclick = "dividir()"> Dividir</button>
+
+    <br></br>
+
+    O Resultado é = <span id = "resultado"></span>
+
+    <h1> Geometria </h1>
+
+    Base Triângulo △ <br/>
+    <input type = "number" id = "baseT"> <br>
+
+    Altura Triângulo △ <br/>
+    <input type = "number" id = "alturaT"> <br>
+
+    </br>
+
+    <button onclick = "areaTriangulo()"> Área △ </button>
+
+    <br></br>
+
+    A Área é = <span id = "resultadoT"></span>
+
+    <br/><br/>
+
+    Lado do Quadrado □ <br/>
+    <input type = "number" id = "ladoQuadrado"> <br>
+
+    </br>
+
+    <button onclick = "areaQuadrado()"> Área ☐ </button>
+
+    <br><br/>
+    A Área é = <span id = "resultadoQ"></span>
+
+    <h1> Verificação de Idade </h1>
+
+    Idade: <br/>
+    <input type = "number" id = "idade"> <br>
+
+    </br>
+
+    <button onclick = "verificar()"> Verificar </button>
+
+    <br></br>
+
+    Verificação | <span id = "resultadoV"></span>
+
+    <h1> Par e Ímpar </h1>
+
+    Número: <br/>
+    <input type = "number" id = "numero"> <br>
+
+    </br>
+
+    <button onclick = "ParImpar()"> Verificar </button>
+
+    <br></br>
+
+    Par | <span id = "resultadoP"></span>
+
+    <br/>
+    Ímpar | <span id = "resultadoI"></span>
+
+    <script src="js/calculo.js"></script>
+    <script src="js/geometria.js"></script>
+    <script src="js/verificacao.js"></script>
+    <script src="js/par-impar.js"></script>
+
+</body>
+</html>
