@@ -1,0 +1,61 @@
+/* fundo do site */
+body{
+    background-color: #c594e7;
+    font-family: Arial, sans-serif;
+    color: rgb(8, 8, 8);
+    padding: 20px;
+}
+
+/* títulos */
+h1{
+    color: #0d0d0e;
+    margin-bottom: 20px;
+}
+
+/* caixinhas */
+.container{
+    background-color: #9b6bc0;
+    padding: 20px;
+    width: 320px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* textos */
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* inputs */
+input{
+    width: 95%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* botões */
+button{
+    background-color: #5e337d;
+    color: rgb(243, 236, 236);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #4a2564;
+}
+
+/* resultado */
+.resultado{
+    margin-top: 15px;
+    background-color: #8756aa;
+    padding: 10px;
+    border-radius: 5px;
+}
