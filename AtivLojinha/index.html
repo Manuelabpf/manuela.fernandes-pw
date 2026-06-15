@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lojinha Camargo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <h1>Lojinha Camargo</h1>
+
+    <table>
+        <tr>
+            <th>Imagem</th>
+            <th>Produto</th>
+            <th>Preço Unitário</th>
+            <th>Qtd</th>
+            <th>Total</th>
+        </tr>
+
+        <tr>
+            <td><img src="Celular Top Motorola.jpg" alt="Celular"></td>
+            <td>
+                Celular Top Motorola<br>
+                Código 1234AE<br>
+                Cor Preto
+            </td>
+            <td id="preco1">1000</td>
+            <td>
+                <button class="botaoMenos" onclick="alterarQtd(1,-1)">-</button>
+                <span id="qtd1">3</span>
+                <button class="botaoMais" onclick="alterarQtd(1,1)">+</button>
+            </td>
+            <td id="total1">3000</td>
+        </tr>
+
+        <tr>
+            <td><img src="Televisão Ultra.jpg" alt="TV"></td>
+            <td>
+                Televisão Ultra<br>
+                Código 1FFB4AE<br>
+                Cor Preto
+            </td>
+            <td id="preco2">9000</td>
+            <td>
+                <button class="botaoMenos" onclick="alterarQtd(2,-1)">-</button>
+                <span id="qtd2">0</span>
+                <button class="botaoMais" onclick="alterarQtd(2,1)">+</button>
+            </td>
+            <td id="total2">0</td>
+        </tr>
+
+        <tr>
+            <td><img src="Notebook Dell Ultra.jpg" alt="Notebook"></td>
+            <td>
+                Notebook Dell Ultra<br>
+                Código 23FB4AE<br>
+                Cor Preto
+            </td>
+            <td id="preco3">9000</td>
+            <td>
+                <button class="botaoMenos" onclick="alterarQtd(3,-1)">-</button>
+                <span id="qtd3">3</span>
+                <button class="botaoMais" onclick="alterarQtd(3,1)">+</button>
+            </td>
+            <td id="total3">27000</td>
+        </tr>
+
+        <tr>
+            <td colspan="5" class="subtotal">
+                SUBTOTAL: <span id="subtotal">30000</span>
+            </td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
