@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: #eee;
+}
+
+.container {
+    width: 90%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.header span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#new {
+    background-color: green;
+    color: white;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.acao {
+    text-align: center;
+}
+
+.acao button {
+    border: 0;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container.active {
+    display: flex;
+}
+
+.modal {
+    background-color: white;
+    padding: 20px;
+    width: 350px;
+}
+
+.modal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal label {
+    margin-top: 10px;
+}
+
+.modal input {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+#btnSalvar {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
