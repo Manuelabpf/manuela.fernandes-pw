@@ -9,8 +9,8 @@ app.use(express.json());
 const db = mysql.createPool({
   host: 'localhost',
   port: 3306,
-  user: 'root',
-  password: 'F&lip32023',
+  user: 'Manu',
+  password: 'manu12345',
   database: 'crud-funcionarios'
 });
 
